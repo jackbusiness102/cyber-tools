@@ -1,0 +1,15 @@
+# Secrets and credentials - never commit these
+.env
+*.key
+*.pem
+*.pfx
+secrets/
+
+# Logs and output
+*.log
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
